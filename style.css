@@ -1,0 +1,57 @@
+p {color:rgb(220, 245, 231)}
+
+h1 {color:rgb(15, 116, 211)}
+
+
+#minombre { color: rgb(15, 116, 211);
+    text-align: center;
+}
+
+#perfil  { color: rgb(15, 116, 211);
+    text-align: center;
+}
+    
+body {background-color: #b8c2bf; 
+    font-family: sans-serif;
+}
+   
+ .dato-importante {
+    color: #b82727; 
+    font-weight: bold;
+}
+    
+
+main{ width: 1500px;       
+    margin: auto;
+    
+}
+   
+article {
+    width: 200px;       /* Ancho fijo para que parezcan tarjetas */
+    background-color: rgb(176, 238, 61);
+    padding: 20px;
+    border: 1px solid #161616;
+    margin-top: 25px;
+}
+
+section {
+    display: flex;      
+    flex-wrap: wrap;  
+    justify-content: center;
+    gap: 20px;        
+}
+
+article {
+    width: 300px;
+}
+
+@media (max-width: 600px) {
+    article {
+        width: 100%; 
+    }
+    
+    h1 {
+        font-size: 1.5rem; 
+    }
+}
+    
